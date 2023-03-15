@@ -1,0 +1,22 @@
+{
+    "name": "test",
+    "description": "A zoomed eyedropper & color chooser by Mukesh Buwade, that allows you to select color values from webpages and more",
+    "version": "0.01",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "./images/picker_16.png",
+        "32": "./images/picker_32.png",
+        "48": "./images/picker_48.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
